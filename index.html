@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style> 
+    @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oxygen&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+    * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }  
+    
+    body{
+        max-width: 700px;
+        height: 400px;
+        margin: 0, auto;
+        padding: 2px;
+        font-family: 'Oxygen', sans-serif;
+        color:  #0D0628;
+    }
+   
+    h1 {
+        font-family: "Abril Fatface", cursive;
+        color:  #0D0628;
+        display: block;
+        padding-left: 21%;
+        padding-top: 10px;
+        letter-spacing: 4px;
+    }
+
+    #logo {
+        float: left;
+        padding-left: 10%;
+        padding-top: 10px;
+        max-width: 50px;
+
+    }
+
+    header {
+        background-color: #DA627D;
+        height: 75px;
+        max-width: 100%;
+
+    }
+
+    .products {
+        height: 30px;
+        padding-top: 2px;
+        letter-spacing: 4px;
+        text-align: center;
+        padding-left: 7%;
+
+    }
+
+    .headline {
+        font-family: "Abril Fatface", cursive;
+        text-align: center;
+        padding-right: 12%;
+        margin-bottom: 3%;
+    }
+
+    span {
+        color: #DA627D;
+    }
+
+    .main {   
+       height: 875px;
+       width: 700px;
+       padding-bottom: 20px;   
+    }
+
+    .makeover {
+        float: right;
+        margin-bottom: 15%;
+        margin-left: 2%;
+        width: 470px;    
+    }
+
+    .makeover-promotion {
+        color: #61988E;
+        margin: 30px 0 30px 0;
+        text-align: center;
+        font-family: "Abril Fatface", cursive;
+        letter-spacing: 2px;
+        padding-bottom: 2%;
+    }
+
+    .description {
+        text-align:left;
+        margin-left: 2%;
+        font-size: 18px;
+        line-height: 30px;     
+    }
+
+    .book-now {
+        background-color:  #DA627D;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 500;
+        width: 200px;
+        height: 55px;
+        border: 2px solid #0D0628;
+        margin-top: 3%;
+        margin-left: 2%; 
+    }
+
+    .link {
+        text-decoration: none;
+    }
+    
+    .link:visited {
+        text-decoration: none;
+        color:whitesmoke;
+    }
+
+    .item-teaser {
+        font-family: "Liu Jian Mao Cao", cursive;
+        color: whitesmoke;
+        font-size: 55px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 7% 0px 9% 0px;
+        letter-spacing: 1px;
+        padding: 20px 15% 10% 15%;
+        background-color: #61988E;
+        border-radius: 50%;           
+    }
+
+    .row:after {
+        content: "";
+        display: block;
+        clear: both;  
+        padding-bottom: 8%;    
+    }
+
+    .three-col {
+        float: left;
+        width: 33.33%;               
+    }
+
+    .center {
+       width:  200px;
+       height: 250px;
+       padding: 10px; 
+    }
+
+    hr.style-three {
+       margin-top: 15px;
+       height: 20px;
+       border-style: solid;
+       border-color: black;
+       border-width: 5px 0 0 0;
+       border-radius: 20px;
+    }
+
+    hr.style-three:before {
+       display: block;
+       content: "";
+       height: 20px;
+       margin-top: -35px;
+       border-style: solid;
+       border-color: black;
+       border-width: 5 0 1px 0;
+       border-radius: 20px;
+    }  
+  
+    .item-descriptions {
+       text-align: left;
+       padding: 10px 6px 10px 6px;
+       text-overflow: initial;
+       overflow: hidden;
+    }
+
+    .price {
+        color: #DA627D;
+        font-weight: bolder;
+        padding: 10px 6px 10px 6px;
+    }
+
+    .fa {
+        padding: 15px;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;    
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #DA627D;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #DA627D;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #DA627D;
+        color: white;
+    }
+
+    .fa-pinterest {
+        background: #DA627D;
+        color: white;
+    }
+
+    .social {
+        text-align: center;
+        float: right;
+        list-style-type: none;
+        margin-top: 2%;
+    }
+
+    .social li {
+        display: inline;
+        padding: 55px;
+    }
+
+    footer {
+       background-color: #0D0628;
+       height: 120px;
+       color: whitesmoke;
+       text-align: center;
+       padding-top: 2%;
+
+    }
+
+    @media (max-width: 700px) {
+        .three-col {
+            width: 97%;
+        }
+        .section-two {
+            width: 97%;
+        }
+    }
+</style>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<div id="heading">
+<img src="https://img.icons8.com/ios/50/000000/fairytale.png" id="logo" alt="crown"/>
+<h1>Queen Beauty Cosmetics</h1>
+</div>
+</header>
+<hr class="style-three">
+<h5 class="products">MAKEUP | SKINCARE | FRAGRANCE</h5>
+<hr class="style-three">
+<h1 class="headline">Embrace Your <span>Lovely</span></h1>
+<div class="main-section">
+<img src="https://images.unsplash.com/photo-1525801383615-8509c5921809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" class="main" alt="model"/>
+</div>
+<div class="section-two">
+<h2 class="makeover-promotion"><em>AVAILABLE NOW:</em>&nbsp;Experience a full-face makeover.</h2>
+<p class="description"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="makeover" alt="makeover"/>Join makeup artist Kelly Van Ellison for a free makeover session. 
+Kelly specializes in making clients feel and look amazing for any occasion. You don't want to miss this!</p>
+<button type="button" class="book-now"><a class="link" href="https://www.google.com/">Book Me!</a></button>
+</div>
+<p class="item-teaser">We've handpicked these items just for you!</p>
+<div class="row">
+<div class="three-col">
+<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60 " class="center"  alt="eyeshadow"/>
+<p class="item-descriptions">A collection of eyeshadows that deliver high-impact color in a single stroke.</p>
+<p class="price">$78.94</p>
+</div>
+<div class="three-col">
+<img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="center"  alt="perfume"/>
+<p class="item-descriptions">CHANEL's floral fragrance sweeps you into a whirlwind of tenderness.</p>
+<p class="price">$92.15</p>
+</div>
+<div class="three-col">
+<img src="https://images.unsplash.com/photo-1542452255191-c85a98f2c5d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" class="center" alt="lipstick"/>
+<p class="item-descriptions">A long-wear, richly-pigmented lipstick that delivers a modern finish.</p>
+<p class="price">$46.52</p>
+</div>
+</div>
+<footer>
+<p>Let's Stay Connected!</p>
+<ul class="social">
+<li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a></li>
+<li><a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter"></a></li>
+<li><a href="https://www.instagram.com"  target="_blank" class="fa fa-instagram"></a></li>
+<li><a href="https://www.pinterest.com/" target="_blank"  class="fa fa-pinterest"></a></li> 
+</ul>
+</footer>
+</div> 
+</body>
+</html>
